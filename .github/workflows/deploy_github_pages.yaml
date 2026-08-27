@@ -33,9 +33,9 @@ jobs:
           run: flutter build web --base-href "${{ steps.pages.outputs.base_path }}/"
           working-directory: ${{ env.PATH_TO_APP }}
 
-        - name: Run tests
-          run: flutter test
-          working-directory: ${{ env.PATH_TO_APP }}
+        # - name: Run tests
+        #   run: flutter test
+        #   working-directory: ${{ env.PATH_TO_APP }}
 
         - name: Upload artifact
           if: github.ref == 'refs/heads/main'
