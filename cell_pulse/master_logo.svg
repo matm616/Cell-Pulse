@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="400mm"
+   height="400mm"
+   viewBox="0 0 400 400"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="master_logo.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="609.8796"
+     inkscape:cy="812.11214"
+     inkscape:window-width="3440"
+     inkscape:window-height="1417"
+     inkscape:window-x="-8"
+     inkscape:window-y="1432"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g43" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="offset"
+       id="path-effect42"
+       is_visible="true"
+       lpeversion="1.3"
+       linejoin_type="miter"
+       unit="mm"
+       offset="3"
+       miter_limit="4"
+       attempt_force_join="false"
+       update_on_knot_move="true" />
+    <inkscape:path-effect
+       effect="offset"
+       id="path-effect41"
+       is_visible="true"
+       lpeversion="1.3"
+       linejoin_type="miter"
+       unit="mm"
+       offset="3"
+       miter_limit="4"
+       attempt_force_join="false"
+       update_on_knot_move="true" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect40"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-16.062532,-75.399024)">
+    <g
+       id="g43"
+       transform="matrix(1.3418063,0,0,1.3418063,3.9266872,-46.120291)">
+      <path
+         id="rect1"
+         style="fill:#00aa44;stroke-width:0.212164"
+         d="m 142.45111,192.32317 c -2.05147,-0.33231 -3.97044,1.05196 -4.30275,3.10342 l -3.39969,20.9873 c -0.33232,2.05147 1.05151,3.97075 3.10298,4.30307 l 39.30922,6.36763 c 2.05146,0.33231 3.97081,-1.0519 4.30313,-3.10337 l 3.39969,-20.98729 c 0.33231,-2.05146 -1.0519,-3.97081 -3.10336,-4.30312 z m -4.91822,30.36155 c -2.05147,-0.33232 -3.97037,1.05157 -4.30268,3.10303 l -3.39976,20.98768 c -0.33231,2.05147 1.05158,3.97037 3.10304,4.30268 l 39.30923,6.36764 c 2.05146,0.33231 3.97075,-1.05151 4.30306,-3.10298 l 3.39976,-20.98769 c 0.33231,-2.05146 -1.05196,-3.97042 -3.10342,-4.30273 z m -4.91821,30.36153 c -2.05147,-0.33231 -3.97037,1.05158 -4.30268,3.10304 l -3.39976,20.98768 c -0.33231,2.05146 1.05157,3.97037 3.10304,4.30269 l 39.30923,6.36763 c 2.05146,0.33231 3.97075,-1.05152 4.30306,-3.10298 l 3.39976,-20.98768 c 0.33231,-2.05146 -1.05196,-3.97043 -3.10342,-4.30275 z" />
+      <path
+         id="rect7"
+         style="fill:#ffffff;stroke-width:0.211064"
+         d="m 140.26616,190.1071 -3.57911,10.30479 -14.16813,37.55068 H 91.914077 v 6.84403 H 127.4473 l 0.0382,0.0145 12.3486,-32.72876 20.52226,66.21818 0.005,-0.002 3.34399,10.81795 3.15019,-8.2672 0.009,0.004 1.03353,-2.73937 0.64027,-1.68 -0.006,5.2e-4 11.93674,-31.63786 h 43.81128 v -6.84403 h -48.5273 l -0.004,0.009 h -0.017 l -11.3714,30.13873 -20.59306,-66.44555 0.004,-0.009 -0.007,-0.003 -0.19069,-0.61495 h 0.004 z" />
+      <path
+         id="path1"
+         style="fill:#ffffff;stroke-width:0.197184"
+         d="M 180.82056 235.91395 L 185.21523 235.91395 L 191.55595 196.76975 C 191.80194 195.25118 190.35949 193.76235 188.32166 193.43225 L 171.69886 190.73984 L 171.99232 188.92628 C 172.31008 186.96471 170.98688 185.12974 169.02531 184.81198 L 158.90228 183.17211 C 156.94072 182.85436 155.10573 184.17794 154.78798 186.13951 L 154.49413 187.95268 L 141.24079 185.80561 L 142.67307 190.53226 L 184.50159 197.30816 C 185.89032 197.53312 186.82742 198.83215 186.60246 200.22087 L 180.82056 235.91395 z " />
+      <path
+         id="path47"
+         style="fill:#ffffff;stroke-width:0.197184"
+         d="M 166.1542 289.16453 L 164.54129 293.39745 L 171.93455 294.59519 C 173.97238 294.9253 175.81094 293.96863 176.05694 292.45004 L 183.38203 247.23049 L 182.0133 247.23049 L 176.71011 261.28989 L 172.44638 287.61132 C 172.22142 289.00005 170.92201 289.93676 169.53329 289.7118 L 166.1542 289.16453 z " />
+      <path
+         id="path45"
+         style="fill:#ffffff;stroke-width:0.197184"
+         d="M 124.05801 247.2301 L 118.24993 283.08609 C 118.00394 284.60467 119.44602 286.09272 121.48383 286.42282 L 162.52593 293.07125 L 161.0636 288.33998 L 125.3039 282.5473 C 123.91519 282.32234 122.97847 281.02331 123.20342 279.63459 L 128.37836 247.68879 L 127.0697 247.2301 L 124.05801 247.2301 z " />
+      <path
+         id="path44"
+         style="fill:#ffffff;stroke-width:0.197184"
+         d="M 139.55201 185.53217 L 137.87094 185.25988 C 135.83312 184.92978 133.99493 185.88722 133.74894 187.4058 L 129.59112 213.07367 L 134.59506 199.81032 L 139.55201 185.53217 z " />
+    </g>
+  </g>
+</svg>
