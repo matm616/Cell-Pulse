@@ -3,7 +3,7 @@
     "short_name": "Cell Pulse",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
+    "background_color": "#111418",
     "theme_color": "#0175C2",
     "description": "LiPo Health Monitor",
     "orientation": "portrait-primary",
