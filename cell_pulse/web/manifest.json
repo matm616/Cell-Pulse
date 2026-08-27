@@ -1,11 +1,11 @@
 {
-    "name": "cell_pulse",
-    "short_name": "cell_pulse",
+    "name": "Cell Pulse",
+    "short_name": "Cell Pulse",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "LiPo Health Monitor",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
