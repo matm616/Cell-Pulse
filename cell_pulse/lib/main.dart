@@ -85,7 +85,7 @@ class _MainAppState extends State<MainApp> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(24, 16, 24, 24),
                   child: Text(
-                    'Build: $version+$buildNumber',
+                    'Build: $buildNumber',
                     textAlign: TextAlign.center,
                     style: Theme.of(context).textTheme.titleMedium?.copyWith(
                           fontWeight: FontWeight.bold,
