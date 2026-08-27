@@ -1,7 +1,7 @@
 name: cell_pulse
-description: "A new Flutter project."
+description: "LiPo Health Monitor"
 publish_to: 'none'
-version: 0.1.0+1
+version: 0.1.0+dev
 
 environment:
   sdk: ^3.13.1
@@ -11,6 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_svg: ^2.3.0
+  package_info_plus: ^10.2.1
 
 dev_dependencies:
   flutter_test:

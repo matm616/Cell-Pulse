@@ -1,10 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 
 import 'package:cell_pulse/quickcalc.dart';
 import 'package:cell_pulse/home.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
-void main() => runApp(const MainApp());
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  packageInfo = await PackageInfo.fromPlatform();
+  appName = packageInfo.appName;
+  packageName = packageInfo.packageName;
+  version = packageInfo.version;
+  buildNumber = packageInfo.buildNumber;
+  runApp(const MainApp());
+}
 
 class MainApp extends StatefulWidget {
   const MainApp({super.key});
@@ -46,26 +55,47 @@ class _MainAppState extends State<MainApp> {
             ],
           ),
         ),
-        drawer: NavigationDrawer(
-          children: <Widget>[
-            SizedBox(height: kToolbarHeight),
-            _DrawerButton(
-              icon: Icons.home_outlined,
-              selectedIcon: Icons.home,
-              label: 'Home',
-              index: 0,
-              selectedIndex: _selectedIndex,
-              onTap: _selectDestination,
+        drawer: Drawer(
+          child: SafeArea(
+            child: Column(
+              children: [
+                Expanded(
+                  child: NavigationDrawer(
+                    children: <Widget>[
+                      SizedBox(height: kToolbarHeight),
+                      _DrawerButton(
+                        icon: Icons.home_outlined,
+                        selectedIcon: Icons.home,
+                        label: 'Home',
+                        index: 0,
+                        selectedIndex: _selectedIndex,
+                        onTap: _selectDestination,
+                      ),
+                      _DrawerButton(
+                        icon: Icons.calculate_outlined,
+                        selectedIcon: Icons.calculate,
+                        label: 'Quick Calc',
+                        index: 1,
+                        selectedIndex: _selectedIndex,
+                        onTap: _selectDestination,
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(24, 16, 24, 24),
+                  child: Text(
+                    'Build: $version+$buildNumber',
+                    textAlign: TextAlign.center,
+                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                          fontWeight: FontWeight.bold,
+                        color: const Color(0xFF424242),
+                        ),
+                  ),
+                ),
+              ],
             ),
-            _DrawerButton(
-              icon: Icons.calculate_outlined,
-              selectedIcon: Icons.calculate,
-              label: 'Quick Calc',
-              index: 1,
-              selectedIndex: _selectedIndex,
-              onTap: _selectDestination,
-            ),
-          ],
+          ),
         ),
         body: Navigator(
           key: _navigatorKey,
@@ -177,3 +207,9 @@ class _DrawerButton extends StatelessWidget {
     );
   }
 }
+
+late PackageInfo packageInfo;
+late String appName;
+late String packageName;
+late String version;
+late String buildNumber;

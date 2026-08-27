@@ -29,8 +29,13 @@ jobs:
         - name: Install dependencies
           run: flutter pub get
           working-directory: ${{ env.PATH_TO_APP }}
+
+        - name: Set short sha for build number
+          id: vars
+          run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+
         - name: Build app for web
-          run: flutter build web --base-href "${{ steps.pages.outputs.base_path }}/"
+          run: flutter build web --build-number=${{ steps.vars.outputs.sha_short }} --base-href "${{ steps.pages.outputs.base_path }}/"
           working-directory: ${{ env.PATH_TO_APP }}
 
         # - name: Run tests
