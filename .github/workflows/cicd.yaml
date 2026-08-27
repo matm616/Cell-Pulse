@@ -1,6 +1,6 @@
 # https://github.com/KinNeko-De/sample-flutter-web-ci-cd-githubpages/blob/main/.github/workflows/cicd.yaml
 # Thanks KinNeko-De for the original workflow
-name: cicd
+name: CI/CD for Flutter Web to GitHub Pages
 
 on:
   push:
@@ -38,7 +38,7 @@ jobs:
         #   working-directory: ${{ env.PATH_TO_APP }}
 
         - name: Upload artifact
-          if: github.ref == 'refs/heads/main'
+          if: github.ref == 'refs/heads/master'
           uses: actions/upload-pages-artifact@v3
           with:
             path: ${{ env.PATH_TO_APP }}/build/web
@@ -46,7 +46,7 @@ jobs:
     cd:
       name: Continuous Deployment
       needs: ci
-      if: github.ref == 'refs/heads/main'
+      if: github.ref == 'refs/heads/master'
       runs-on: ubuntu-latest
       permissions:
         pages: write
