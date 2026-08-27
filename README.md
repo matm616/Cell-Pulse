@@ -2,6 +2,8 @@
 
 An app to calculate you LiPo pack's C rating based of the internal resistance your charger provides
 
+Accessible at <https://matm616.github.io/Cell-Pulse/>
+
 Install as a PWA for easy access
 
 ## AI Disclaimer
